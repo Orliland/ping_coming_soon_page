@@ -16,9 +16,17 @@ function App() {
           <p className="subheading">Subscribe and get notified</p>
         </div>
 
-        <form>
-          <input type="email" name="mail" id="mail" />
-          <button type="submit">Notify Me</button>
+        <form className="form">
+          <input
+            placeholder="Your email address…"
+            className="form__input"
+            type="email"
+            name="mail"
+            id="mail"
+          />
+          <button className="form__button" type="submit">
+            Notify Me
+          </button>
         </form>
       </header>
       <main>
