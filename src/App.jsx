@@ -7,10 +7,15 @@ import SocialLinks from "./components/SocialLinks";
 function App() {
   return (
     <div className="wrapper">
-      <header>
-        <img src={Logo} alt="Ping logo" />
-        <h1>We are launching soon!</h1>
-        <p>Subscribe and get notified</p>
+      <header className="header">
+        <img src={Logo} alt="Ping logo" className="logo" />
+        <div className="header__content">
+          <h1 className="heading">
+            We are launching <strong>soon!</strong>
+          </h1>
+          <p className="subheading">Subscribe and get notified</p>
+        </div>
+
         <form>
           <input type="email" name="mail" id="mail" />
           <button type="submit">Notify Me</button>

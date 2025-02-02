@@ -2,3 +2,43 @@
   width: calc(100% - 5.4rem);
   padding: 8.1rem 2.8rem 0;
 }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 5.6rem;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.2rem;
+  font-weight: 300;
+
+  color: var(--gray);
+}
+
+.heading strong {
+  font-weight: 700;
+
+  color: var(--very-dark-blue);
+}
+
+.subheading {
+  font-size: 1.2rem;
+  font-weight: 300;
+
+  color: var(--very-dark-blue);
+}
