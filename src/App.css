@@ -3,7 +3,8 @@
   grid-auto-rows: auto auto 1fr;
   gap: 7.2rem;
 
-  width: calc(100% - 5.4rem);
+  width: calc(100vw - 5.6rem);
+  max-width: 100%;
   min-height: calc(100vh - 8.1rem);
   padding: 8.1rem 2.8rem 0;
 }
