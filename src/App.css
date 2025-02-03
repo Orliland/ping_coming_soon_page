@@ -1,5 +1,10 @@
 .wrapper {
+  display: grid;
+  grid-auto-rows: auto auto 1fr;
+  gap: 7.2rem;
+
   width: calc(100% - 5.4rem);
+  min-height: calc(100vh - 8.1rem);
   padding: 8.1rem 2.8rem 0;
 }
 
@@ -43,6 +48,10 @@
   color: var(--very-dark-blue);
 }
 
+.main {
+  height: fit-content;
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -77,4 +86,22 @@
   font-weight: 600;
   font-size: 1.2rem;
   line-height: 1.6rem;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.footer {
+  align-self: end;
+}
+
+.footer__copy {
+  margin-top: 2.7rem;
+
+  text-align: center;
+  font-weight: 300;
+  font-size: 1rem;
+
+  color: var(--gray);
 }

@@ -1,0 +1,21 @@
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+
+  list-style: none;
+}
+
+.social-links__link {
+  display: grid;
+  place-items: center;
+
+  width: 3.2rem;
+  height: 3.2rem;
+  border: 0.1rem solid var(--light-pale-blue);
+  border-radius: 50%;
+}
+
+.social-links__icon {
+  color: var(--blue);
+}

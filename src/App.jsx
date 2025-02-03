@@ -29,15 +29,16 @@ function App() {
           </button>
         </form>
       </header>
-      <main>
+      <main className="main">
         <img
+          className="thumbnail"
           src={Illustration}
           alt="Illustration of the future dashboard of Ping"
         />
       </main>
-      <footer>
+      <footer className="footer">
         <SocialLinks />
-        <p>© Copyright Ping. All rights reserved.</p>
+        <p className="footer__copy">© Copyright Ping. All rights reserved.</p>
       </footer>
     </div>
   );
