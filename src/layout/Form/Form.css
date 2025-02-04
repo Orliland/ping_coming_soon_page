@@ -33,11 +33,11 @@
 
 .form__input:focus {
   outline: none;
-  border: 0.15rem solid var(--blue);
+  border: 0.1rem solid var(--blue);
 }
 
 .form__input--error {
-  border: 0.15rem solid var(--light-red);
+  border: 0.1rem solid var(--light-red);
 }
 
 .form__alert {
@@ -78,7 +78,7 @@
 
   .form__input {
     width: calc(100% - 6rem);
-    padding: 1.8rem 3rem;
+    padding: 1.7rem 3rem;
 
     font-size: 1.6rem;
     line-height: 2rem;
