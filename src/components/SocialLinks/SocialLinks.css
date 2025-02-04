@@ -19,3 +19,11 @@
 .social-links__icon {
   color: var(--blue);
 }
+
+.social-links__link:hover .social-links__icon {
+  color: #fff;
+}
+
+.social-links__link:hover {
+  background-color: var(--blue);
+}
