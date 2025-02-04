@@ -63,6 +63,7 @@
   font-weight: 600;
   font-size: 1.2rem;
   line-height: 1.6rem;
+  box-shadow: 0 0.5rem 1rem 0.2rem var(--blue-opacity);
 }
 
 @media (min-width: 700px) {
