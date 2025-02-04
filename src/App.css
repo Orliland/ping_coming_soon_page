@@ -52,6 +52,24 @@
   color: var(--very-dark-blue);
 }
 
+.thumbnail {
+  width: 100%;
+}
+
+.footer {
+  align-self: end;
+}
+
+.footer__copy {
+  margin-top: 2.7rem;
+
+  text-align: center;
+  font-weight: 300;
+  font-size: 1rem;
+
+  color: var(--gray);
+}
+
 @media (min-width: 700px) {
   .wrapper {
     margin: 0 auto;
@@ -81,22 +99,13 @@
   .subheading {
     font-size: 2rem;
   }
-}
 
-.thumbnail {
-  width: 100%;
-}
+  .main {
+    margin-top: 2.2rem;
+  }
 
-.footer {
-  align-self: end;
-}
-
-.footer__copy {
-  margin-top: 2.7rem;
-
-  text-align: center;
-  font-weight: 300;
-  font-size: 1rem;
-
-  color: var(--gray);
+  .footer__copy {
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+  }
 }
