@@ -26,7 +26,9 @@ const Form = () => {
       <div className="form__group">
         <input
           placeholder="Your email address…"
-          className="form__input"
+          className={`form__input ${
+            isEmail === false ? "form__input--error" : ""
+          }`}
           type="text"
           name="mail"
           id="mail"

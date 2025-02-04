@@ -31,6 +31,15 @@
   color: var(--light-pale-blue);
 }
 
+.form__input:focus {
+  outline: none;
+  border: 0.15rem solid var(--blue);
+}
+
+.form__input--error {
+  border: 0.15rem solid var(--light-red);
+}
+
 .form__alert {
   font-size: 1rem;
   font-style: italic;
