@@ -3,6 +3,7 @@ import "./App.css";
 import Logo from "./assets/logo.svg";
 import Illustration from "./assets/illustration-dashboard.png";
 import SocialLinks from "./components/SocialLinks";
+import Form from "./layout/Form";
 
 function App() {
   return (
@@ -16,18 +17,7 @@ function App() {
           <p className="subheading">Subscribe and get notified</p>
         </div>
 
-        <form className="form">
-          <input
-            placeholder="Your email address…"
-            className="form__input"
-            type="email"
-            name="mail"
-            id="mail"
-          />
-          <button className="form__button" type="submit">
-            Notify Me
-          </button>
-        </form>
+        <Form />
       </header>
       <main className="main">
         <img
